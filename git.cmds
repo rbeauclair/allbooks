@@ -1,0 +1,42 @@
+    3  sudo apt install curl git nmap mlocate vim
+  133  git clone https://github.com/alura-cursos/api-alurabooks.git
+  136  git clone https://github.com/alura-cursos/curso-react-alurabooks.git
+  144  git checkout aula-5
+  186  git init
+  187  git branch -M main
+  188  git remote add origin https://github.com/rbeauclair/allbooks.git
+  189  git remote
+  190  git status
+  191  git add .
+  192  git status
+  193  git commit -m "Projeto inicial"
+  194  git config --global user.email "rbs@impa.br"
+  195  git config --global user.name "rbeauclair"
+  196  git commit -m "Projeto inicial"
+  197  git log
+  198  git push origin main
+  199  git config --global credential.helper store
+  200  git push origin main
+  202  git log
+  203  git pull origin main
+  204  git log
+  207  get https://github.com/alura-cursos/allbooks/archive/refs/heads/testes.zip
+  208  wget https://github.com/alura-cursos/allbooks/archive/refs/heads/testes.zip
+  214  git branch
+  215  git checkout -b testes
+  216  git branch
+  232  wget https://github.com/alura-cursos/allbooks/archive/refs/heads/testes.zip
+  300  git status
+  301  git add .
+  302  git status
+  303  git commit -m "Adicionado teste"
+  304  git push origin testes
+  306  git branch
+  307  git checkout main
+  308  git branch
+  309  git merge testes
+  310  git log
+  311  git push origin main
+  312  git branch -D testes
+  313  git push origin testes --delete
+  315  history | grep git > git.cmds
